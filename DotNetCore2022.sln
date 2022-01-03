@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore2022", "DotNetCore2022\DotNetCore2022.csproj", "{60549A34-CAF6-470E-9ECD-04613B94083F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore2022", "DotNetCore2022\DotNetCore2022.csproj", "{60549A34-CAF6-470E-9ECD-04613B94083F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "一对一", "一对一\一对一.csproj", "{DE384388-0EFD-45F1-8444-E64A669A7BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多对多关系", "多对多关系\多对多关系.csproj", "{550B3325-806B-4A00-8642-9A4061643DD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{60549A34-CAF6-470E-9ECD-04613B94083F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60549A34-CAF6-470E-9ECD-04613B94083F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60549A34-CAF6-470E-9ECD-04613B94083F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE384388-0EFD-45F1-8444-E64A669A7BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE384388-0EFD-45F1-8444-E64A669A7BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE384388-0EFD-45F1-8444-E64A669A7BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE384388-0EFD-45F1-8444-E64A669A7BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550B3325-806B-4A00-8642-9A4061643DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550B3325-806B-4A00-8642-9A4061643DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550B3325-806B-4A00-8642-9A4061643DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550B3325-806B-4A00-8642-9A4061643DD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
