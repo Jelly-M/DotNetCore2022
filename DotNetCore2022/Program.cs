@@ -7,6 +7,7 @@ namespace DotNetCore2022
     {
         //测试数据插入
         //测试递归缩进打印
+
         static async Task Main(string[] args)
         {
             //这样子指向类似一个双向图父节点指向子节点，子节点也指向父节点
@@ -107,7 +108,6 @@ namespace DotNetCore2022
             }
             Console.WriteLine("执行结束");
             Console.ReadKey();
-
         }
     }
 }
