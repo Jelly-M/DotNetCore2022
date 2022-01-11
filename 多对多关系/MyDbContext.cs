@@ -15,7 +15,7 @@ namespace 多对多关系
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=.;Database=DotnetCore2022;Trusted_Connection=true;MultipleActiveResultSets=true;");
-
+            optionsBuilder.UseBatchEF_MSSQL();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
