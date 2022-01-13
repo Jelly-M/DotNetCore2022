@@ -14,6 +14,7 @@ namespace 多对多关系
         {
             builder.ToTable("T_Students");
             builder.HasQueryFilter(t => t.Id > 1);
+
         }
     }
 }

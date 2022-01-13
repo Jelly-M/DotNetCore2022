@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 多对多关系
+namespace 乐观并发控制
 {
-    public class Student
+   public  class House
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public List<Teacher> Teachers2 { get; set; } = new List<Teacher>();
-        
+        public string Owner { get; set; }
+        public byte[] RowVer { get; set; }
     }
 }
