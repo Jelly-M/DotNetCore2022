@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "一对一", "一对一\一�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多对多关系", "多对多关系\多对多关系.csproj", "{550B3325-806B-4A00-8642-9A4061643DD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "乐观并发控制", "乐观并发控制\乐观并发控制.csproj", "{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "乐观并发控制", "乐观并发控制\乐观并发控制.csproj", "{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
