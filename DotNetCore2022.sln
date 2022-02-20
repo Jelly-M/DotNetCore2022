@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore2022", "DotNetCore2022\DotNetCore2022.csproj", "{60549A34-CAF6-470E-9ECD-04613B94083F}"
 EndProject
@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多对多关系", "多对�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "乐观并发控制", "乐观并发控制\乐观并发控制.csproj", "{906FCDDD-FFC2-4C7F-BD6A-F0C8B9D4CC96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "表达式树", "表达式树\表达式树.csproj", "{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "表达式树", "表达式树\表达式树.csproj", "{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalR", "SignalR\SignalR.csproj", "{BA58A06D-A806-4359-89EA-3C04627D35C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore实现值对象", "EFCore实现值对象\EFCore实现值对象.csproj", "{CA6B021A-D196-4803-BB2B-33FDBDC46642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq_Sender", "RabbitMq_Sender\RabbitMq_Sender.csproj", "{1E68151C-AA77-4EED-97A0-CC7B6B6CD866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq_Customer", "RabbitMq_Customer\RabbitMq_Customer.csproj", "{D363432D-EE66-42E9-823C-F3D9EA17A68F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F914E9C5-7BE5-4FD1-B0F4-3AF75C4276DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA58A06D-A806-4359-89EA-3C04627D35C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA58A06D-A806-4359-89EA-3C04627D35C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA58A06D-A806-4359-89EA-3C04627D35C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA58A06D-A806-4359-89EA-3C04627D35C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6B021A-D196-4803-BB2B-33FDBDC46642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6B021A-D196-4803-BB2B-33FDBDC46642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6B021A-D196-4803-BB2B-33FDBDC46642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6B021A-D196-4803-BB2B-33FDBDC46642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E68151C-AA77-4EED-97A0-CC7B6B6CD866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E68151C-AA77-4EED-97A0-CC7B6B6CD866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E68151C-AA77-4EED-97A0-CC7B6B6CD866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E68151C-AA77-4EED-97A0-CC7B6B6CD866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D363432D-EE66-42E9-823C-F3D9EA17A68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D363432D-EE66-42E9-823C-F3D9EA17A68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D363432D-EE66-42E9-823C-F3D9EA17A68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D363432D-EE66-42E9-823C-F3D9EA17A68F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
