@@ -34,7 +34,6 @@ async Task Consumer_Received(object sender, BasicDeliverEventArgs @event)
     catch (Exception ex)
     {
         Console.WriteLine(ex);
-
         channel.BasicReject(@event.DeliveryTag, true);
     }
 }
